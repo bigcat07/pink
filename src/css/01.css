@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    background-image: url("img2/bgImg.png");
+}
+
+/*导航栏*/
+#wrap {
+    background-color: rgb(255,255,255);
+    height: 64px;
+    position: relative;
+    /*overflow: hidden;*/
+}
+
+
+/*logo*/
+#logo {
+    position: absolute;
+    top: 12px;
+    left: 80px;
+}
+
+/*菜单栏*/
+#title1 {
+    position: absolute;
+    left: 300px;
+    background-color: rgb(251,251,251);
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-bottom: 3px solid black;
+}
+.title a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#title2 {
+    position: absolute;
+    left: 370px;
+    /*background-color: rgb(251,251,251);*/
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+#title3 {
+    position: absolute;
+    left: 440px;
+    /*background-color: rgb(251,251,251);*/
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+#title4 {
+    position: absolute;
+    left: 510px;
+    /*background-color: rgb(251,251,251);*/
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+#title5 {
+    position: absolute;
+    left: 580px;
+    /*background-color: rgb(251,251,251);*/
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+/*右侧*/
+#huabi {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 1000px;
+    top: 10px;
+}
+#huabi img {
+    width: 100%;
+    height: 100%;
+}
+
+/*注册登录*/
+#login {
+    position: absolute;
+    left: 1060px;
+    top: 10px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(180,222,196);
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+#login a {
+    color: rgb(180,222,196);
+    text-decoration: none;
+}
